@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Neliswa Ngcobo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="nav-logo">NN</div>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About Me</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- PAGE HEADER -->
+    <section class="page-header">
+        <h1>About Me</h1>
+        <p>A little bit about who I am and where I come from</p>
+    </section>
+
+    <!-- ABOUT CONTENT -->
+    <section class="about-section">
+        <div class="about-grid">
+            <div class="about-image">
+                <div class="image-circle large">
+                    <img src="photo.jpg" alt="Neliswa Ngcobo" onerror="this.style.display='none'; this.parentElement.querySelector('.photo-placeholder').style.display='flex'">
+                    <div class="photo-placeholder">NN</div>
+                </div>
+            </div>
+            <div class="about-text">
+                <h2>Hi, I am Neliswa</h2>
+                <p>
+                    I am a graduate software developer based in KwaZulu-Natal, South Africa.
+                    I have a passion for building software that solves real problems.
+                    I enjoy working across the full stack, from designing the database
+                    all the way to building what the user sees on screen.
+                </p>
+                <p>
+                    I recently participated in the CodeTribe Web Development Bootcamp where I
+                    deepened my knowledge of HTML, CSS, JavaScript and GitHub.
+                    One of the things I enjoyed most was learning how the front end connects
+                    to the logic behind the page.
+                </p>
+                <p>
+                    Outside of coding, I am always looking to grow. I believe in writing
+                    code that is easy to read and understand, not just code that works.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills-section">
+        <h2 class="section-heading">Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-group">
+                <h4>Languages</h4>
+                <ul class="skill-list">
+                    <li>C#</li>
+                    <li>JavaScript</li>
+                    <li>Java</li>
+                    <li>PHP</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h4>Frameworks</h4>
+                <ul class="skill-list">
+                    <li>ASP.NET Core / MVC</li>
+                    <li>Blazor</li>
+                    <li>React</li>
+                    <li>Angular</li>
+                    <li>Ionic</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h4>Web</h4>
+                <ul class="skill-list">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Bootstrap</li>
+                    <li>jQuery</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h4>Database</h4>
+                <ul class="skill-list">
+                    <li>SQL Server</li>
+                    <li>Entity Framework Core</li>
+                    <li>SQL</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h4>Tools and Methods</h4>
+                <ul class="skill-list">
+                    <li>Git / GitHub</li>
+                    <li>Agile / Scrum</li>
+                    <li>Telerik Report Designer</li>
+                    <li>REST APIs</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h4>AI / ML</h4>
+                <ul class="skill-list">
+                    <li>LLM Prompting</li>
+                    <li>Machine Learning</li>
+                    <li>Deep Learning</li>
+                    <li>NLP</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHAT I AM LOOKING FOR -->
+    <section class="looking-for">
+        <div class="looking-content">
+            <h2>Why CodeTribe Academy</h2>
+            <p>
+                I applied to the CodeTribe Academy because I want to keep growing as a developer
+                in a structured environment. The bootcamp showed me how much I enjoy web development
+                and working with a team. I want to take what I have already learned and build
+                on it with the guidance of experienced mentors and real project exposure.
+            </p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <p class="footer-name">Neliswa Ngcobo</p>
+                <p class="footer-address">Pietermaritzburg, South Africa</p>
+                <p class="footer-phone">084 588 4210</p>
+                <p class="footer-email">neliswangcobo141@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/neliswa.ngcobo" target="_blank" class="social-icon" title="Facebook">F</a>
+                    <a href="https://www.instagram.com/neliswa_ngcobo_141" target="_blank" class="social-icon" title="Instagram">I</a>
+                    <a href="https://github.com/Neliswa084" target="_blank" class="social-icon" title="GitHub">G</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-heading">Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="mailto:neliswangcobo141@gmail.com">Email Me</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <iframe
+                    src="https://www.google.com/maps?q=Pietermaritzburg,+KwaZulu-Natal,+South+Africa&output=embed"
+                    width="100%"
+                    height="180"
+                    style="border:0; border-radius:6px;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    title="Pietermaritzburg Map">
+                </iframe>
+            </div>
+        </div>
+        <p class="footer-copy">&copy; 2026 Neliswa Ngcobo. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

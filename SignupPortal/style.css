@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.container {
+    background-color: white;
+    padding: 32px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    width: 100%;
+    max-width: 420px;
+}
+
+h1 {
+    color: #1b2a4a;
+    margin-bottom: 24px;
+    font-size: 1.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 9px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.95rem;
+}
+
+.checkbox-group {
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.checkbox-group input {
+    width: auto;
+}
+
+.checkbox-group label {
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.error {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1b2a4a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+button:hover:not(:disabled) {
+    background-color: #243660;
+}
+
+button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}

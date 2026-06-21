@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Grader</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <h1>Student Grader</h1>
+
+    <div class="form-section">
+        <label for="studentName">Student Name:</label>
+        <input type="text" id="studentName" placeholder="Enter student name" />
+
+        <label for="studentMark">Mark (0 - 100):</label>
+        <input type="number" id="studentMark" placeholder="Enter mark" min="0" max="100" />
+
+        <button onclick="gradeStudent()">Submit</button>
+    </div>
+
+    <div id="resultArea" class="result-area"></div>
+
+    <h2>All Students</h2>
+    <ul id="studentList"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>

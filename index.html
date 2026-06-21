@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neliswa Ngcobo | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="nav-logo">NN</div>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-content">
+            <p class="greeting">Hello, I am</p>
+            <h1 class="hero-name">Neliswa Ngcobo</h1>
+            <p class="hero-role">Graduate Software Developer</p>
+            <p class="hero-desc">
+                I build web applications and enjoy solving real problems through code.
+                Based in KwaZulu-Natal, South Africa.
+            </p>
+            <div class="hero-buttons">
+                <a href="about.html" class="btn btn-primary">About Me</a>
+                <a href="contact.html" class="btn btn-outline">Get In Touch</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-circle">
+                <img src="photo.jpg" alt="Neliswa Ngcobo" onerror="this.style.display='none'; this.parentElement.querySelector('.photo-placeholder').style.display='flex'">
+                <div class="photo-placeholder">NN</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHAT I DO -->
+    <section class="what-i-do">
+        <h2 class="section-heading">What I Do</h2>
+        <div class="cards">
+            <div class="card">
+                <div class="card-icon">&lt;/&gt;</div>
+                <h3>Web Development</h3>
+                <p>I build websites using HTML, CSS and JavaScript. I enjoy making pages that are clean and easy to use.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">#</div>
+                <h3>Full Stack Apps</h3>
+                <p>I have experience building full stack applications using C# and ASP.NET Core MVC with SQL Server databases.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">!</div>
+                <h3>Problem Solving</h3>
+                <p>I enjoy taking a real problem and turning it into a working solution. My JobTracker app was born from a real need I had.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects">
+        <h2 class="section-heading">Projects</h2>
+        <div class="project-cards">
+            <div class="project-card">
+                <h3>JobTracker</h3>
+                <p class="project-tech">C# &bull; ASP.NET Core MVC &bull; SQL Server &bull; Entity Framework</p>
+                <p>A full stack web app I built to help job seekers keep track of all the jobs they have applied for. Includes user login, status tracking and notes.</p>
+                <a href="https://github.com/Neliswa084/JobTracker" target="_blank" class="project-link">View on GitHub &rarr;</a>
+            </div>
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p class="project-tech">HTML &bull; CSS &bull; Responsive Design</p>
+                <p>This website. Built as part of the CodeTribe Web Development Bootcamp. Fully responsive with a mobile hamburger menu and hover effects.</p>
+                <a href="https://github.com/Neliswa084" target="_blank" class="project-link">View on GitHub &rarr;</a>
+            </div>
+            <div class="project-card">
+                <h3>Student Grader</h3>
+                <p class="project-tech">HTML &bull; CSS &bull; JavaScript &bull; DOM</p>
+                <p>A JavaScript app where you enter a student name and mark, and it instantly tells you if they passed or failed without reloading the page.</p>
+                <a href="https://github.com/Neliswa084" target="_blank" class="project-link">View on GitHub &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <p class="footer-name">Neliswa Ngcobo</p>
+                <p class="footer-address">Pietermaritzburg, South Africa</p>
+                <p class="footer-phone">084 588 4210</p>
+                <p class="footer-email">neliswangcobo141@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/neliswa.ngcobo" target="_blank" class="social-icon" title="Facebook">F</a>
+                    <a href="https://www.instagram.com/neliswa_ngcobo_141" target="_blank" class="social-icon" title="Instagram">I</a>
+                    <a href="https://github.com/Neliswa084" target="_blank" class="social-icon" title="GitHub">G</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-heading">Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="mailto:neliswangcobo141@gmail.com">Email Me</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <iframe
+                    src="https://www.google.com/maps?q=Pietermaritzburg,+KwaZulu-Natal,+South+Africa&output=embed"
+                    width="100%"
+                    height="180"
+                    style="border:0; border-radius:6px;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    title="Pietermaritzburg Map">
+                </iframe>
+            </div>
+        </div>
+        <p class="footer-copy">&copy; 2026 Neliswa Ngcobo. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
